@@ -204,7 +204,7 @@ def checkPermissions():
         else:
             print(
                 "{0}Permissions denied! Please run as '{1}sudo{0}'".format(RED, GREEN))
-            exit()
+            sleep(5)
     else:
         print("{0}Windows system not yet compatible. Make sure you're using a *Unix OS.{1}".format(RED, DEFAULT))
         exit()
