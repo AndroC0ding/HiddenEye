@@ -568,14 +568,16 @@ def runMainMenu():  # menu where user select what they wanna use
     red  = '\033[31m'
     print("\n\n\n              {2}WITH GREAT {1}POWER {3}- {2}COMES GREAT {1}RESPONSIBILITY      ".format(orange, red, purple, blue))
     
-    if input("\n\n\n\n{2}[{1}!{2}]{3} Do you agree to use this tool for educational/testing purposes only? {1}({0}Y{1}/{2}N{1})\n{2}HiddenEye >>> {0}".format(MAIN2, MAIN4, MAIN0, orange)).upper() != 'Y':
+    if input("\n\n\n\n{2}[{1}!{2}]{3} Have you subscribed to the Andro Coding channel? {1}({0}Y{1}/{2}N{1})\n{2}HiddenEye >>> {0}".format(MAIN2, MAIN4, MAIN0, orange)).upper() != 'Y':
         system('clear')
         print("\n\n[ {0}YOU ARE NOT AUTHORIZED TO USE THIS TOOL.YOU CAN ONLY USE IT FOR EDUCATIONAL PURPOSE.!{1} ]\n\n".format(MAIN0, MAIN4))
+        system('http://linkac.ga/5EtiN')
         exit()
 
 
 def mainMenu():
     system('clear')
+    system('https://www.youtube.com/channel/UCy3yZre3lXn04kLajnTzM2Q') 
     with open('version.txt') as f:
         ver_current = f.read()
         version = ver_current.strip()
