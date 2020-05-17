@@ -37,7 +37,7 @@ The use of the HiddenEye & its resources/phishing-pages is **COMPLETE RESPONSIBI
 5) Micrafast (https://github.com/Micrafast)
 6) Moltivie (https://github.com/Moltivie)
 7) endbehavi0r (https://github.com/endbehavi0r)
-8) ___________ (WAITING FOR YOU)
+8) Andro Coding (https://github.com/AndroC0ding)
 
 # AVAILABLE TUNNELLING OPTIONS**
 0) LOCALHOST 
@@ -53,6 +53,7 @@ The use of the HiddenEye & its resources/phishing-pages is **COMPLETE RESPONSIBI
 
 
 ## CREDIT:-
+* Mr.Fuck ( I am redesigning this tool )
 * Anonud4y ( I don't remember if i have done Anything )
 * Usama ( A Most active Developer)
 * sTiKyt ( Guy Who recustomized everything )
